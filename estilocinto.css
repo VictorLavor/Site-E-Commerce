@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.f{
+    width: 8%;
+    
+}
+.f2{
+    width: 20px;
+    height: 20px;   
+    
+}
+
+#header-container{
+    width: 100vw;
+    font-size: 50px;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    justify-content:space-between;
+}
+
+.a{
+    border-style: solid none;
+    border-width: 1px;
+    border-color: black;
+    padding: 2px 5px;
+    background-color: antiquewhite;
+}
+
+.item{
+    text-align: center;
+    margin: 2px;
+} 
+
+.main-container{
+    font-size: 60px;
+    height: 95vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 95vh;
+    background-color: rgb(194, 194, 194);
+    text-align: center;
+}
+
+.container {
+  
+  font-size: 80px;
+  display: grid; /* Ativa o modelo de layout flexível */
+  justify-content: center; /* Centraliza horizontalmente os itens */
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+  }
+  
+.container img {
+    width: 1000px; /* Ajuste o tamanho conforme necessário */
+    margin: 10px; /* Adiciona margem entre as imagens */
+  }
+  
